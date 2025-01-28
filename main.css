@@ -29,7 +29,7 @@ header {
 header nav li {
     display: inline;
     margin-left: 24px;
-    font-size: 18px;
+    font-size: 12px;
 }
 
 .container {
@@ -45,20 +45,9 @@ section .container {
     justify-content: space-between;
 }
 
-section .container {
-    align-items: flex-start;
-}
-
-section {
-    padding: 24px 0;
-}
-
-section {
-    color: #000000;
-}
-
-section p {
-    margin-bottom: 16px;
+section h2 {
+    padding: 20px;
+    bottom: 16px;
 }
 
 .store-front { 
@@ -67,12 +56,7 @@ section p {
 }
 
 #contact .container {
-    display: block;
-}
-
-.contact-methods {
-    display: flex;
-    justify-content: space-between;
+    display: inline;
 }
 
 form input,
@@ -92,6 +76,16 @@ form textarea {
 section h3 {
     margin-bottom: 16px;
 }
+
+section .container {
+    align-items: flex-start;
+}
+
+section {
+    color: #ecf0f1;
+    padding: 24px 0;
+}
+
 
 form button {
     background-color: #791710;
@@ -114,15 +108,6 @@ footer {
     padding: 16px 0;
 }
 
-
-header,
-section h2,
-section h3,
-form button {
-    font-family: 'Press Start 2P', cursive;
-    font-weight: normal;
-}
-
 body, input, textarea {
     font-family: 'Kanit', sans-serif;
 }
@@ -131,18 +116,3 @@ body {
     background-color: #000000;
 }
 
-section .container {
-    align-items: flex-start;
-}
-
-section {
-    padding: 24px 0;
-}
-
-section h2 {
-    bottom: 16px;
-}
-
-section {
-    color: #ecf0f1;
-}
