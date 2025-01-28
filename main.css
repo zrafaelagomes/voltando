@@ -116,3 +116,47 @@ body {
     background-color: #000000;
 }
 
+.brand-list {
+    list-style-type: none; /* Remove os marcadores da lista */
+    padding: 0; /* Remove o padding padrão da lista */
+}
+
+.brand-list li {
+    display: flex; /* Alinha a imagem e o texto em linha */
+    align-items: center; /* Centraliza verticalmente */
+    margin-bottom: 16px; /* Espaçamento entre os itens */
+}
+
+.brand-list img {
+    width: 400px; /* Define uma largura fixa para as imagens */
+    height: auto; /* Mantém a proporção da imagem */
+    margin-right: 16px; /* Espaçamento entre a imagem e o texto */
+    object-fit: cover; /* Garante que a imagem preencha o espaço sem distorção */
+}
+
+.brand-list h3 {
+    margin: 0; /* Remove a margem padrão do h3 */
+    font-size: 18px; /* Ajuste o tamanho da fonte conforme necessário */
+    font-weight: bold; /* Deixa o texto em negrito */
+}
+.sobre-luas {
+    text-align: center; /* Centraliza o texto horizontalmente */
+    margin-bottom: 20px; /* Espaçamento abaixo do título */
+}
+
+.sobre-luas h2 {
+    font-size: 24px; /* Ajuste o tamanho da fonte conforme necessário */
+    font-weight: bold; /* Deixa o texto em negrito */
+}
+
+.brand-list h3 {
+    margin: 0; /* Remove a margem padrão do h3 */
+    font-size: 20px; /* Ajuste o tamanho da fonte conforme necessário */
+    font-weight: bold; /* Deixa o texto em negrito */
+}
+
+.brand-list span {
+    display: block; /* Faz o texto descritivo ocupar toda a largura */
+    margin-top: 10px; /* Espaçamento entre o nome e o texto descritivo */
+}
+
