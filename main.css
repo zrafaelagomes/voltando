@@ -116,11 +116,6 @@ body {
     background-color: #000000;
 }
 
-.brand-list {
-    list-style-type: none; /* Remove os marcadores da lista */
-    padding: 0; /* Remove o padding padrão da lista */
-}
-
 .brand-list li {
     display: flex; /* Alinha a imagem e o texto em linha */
     align-items: center; /* Centraliza verticalmente */
@@ -158,5 +153,20 @@ body {
 .brand-list span {
     display: block; /* Faz o texto descritivo ocupar toda a largura */
     margin-top: 10px; /* Espaçamento entre o nome e o texto descritivo */
+}
+
+/* Estilos para o cabeçalho e links */
+nav {
+    background-color: #791710; /* Cor de fundo do cabeçalho */
+    padding: 10px; /* Espaçamento interno */
+    text-align: center; /* Centraliza os links no cabeçalho */
+}
+
+nav a {
+    text-decoration: none; /* Remove o sublinhado dos links */
+    color: #ecf0f1; /* Cor do texto do link (ajuste conforme necessário) */
+    margin: 0 15px; /* Espaçamento entre os links */
+    font-family: 'Kanit', sans-serif; /* Fonte igual aos outros textos */
+    font-weight: bold; /* Peso da fonte igual aos outros textos */
 }
 
